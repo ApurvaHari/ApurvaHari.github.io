@@ -22,7 +22,7 @@
 <h4>Hybrid Structure</h4>
 <p>
 This project is a series of pages with dynamic content that explains the relationship between the happiness
-and income in different states of the USA. On each page, we show US maps color coded, for different statistics.
+and income in different states of the USA. On subssequent pages, US maps are color coded, for different statistics.
 Users can hover over each state to obtain more details for better understanding/analyis.
 </p>
 
@@ -50,14 +50,19 @@ an annotation for the next state they hover over appears.
 <h4>Parameters</h4>
 <p>
 Parameters in this project are:
-Reading the input .csv files as a function,
-loading JSON data to match the geo-location properties to the .csv data field "state", and
-passing color ranges to the domains to fill the maps.
+At the bottom of every page, there is a page indicator and pagination is used to navigate through each page
+as well as indicate the current page.
+Additionally, a navigation bar on the first page at the top, lets the user select which page to navigate.
 </p>
+
 <h4>Triggers</h4>
 <p>
-We provide buttons to navigate between pages. Every section is hyper linked to the next section as well the previouse section.
-The name of the target section is passed as an input paramter to the button and navgiation bar items.
+
+Navigation is provided at the bottom of every page.
+As the user navigates from page 1 to page 2, we use the same annotation for the happiness rank chart, and add new
+chart.
+Similarly, As the user navigates from page 1 to page 3, we use the same annotation for the happiness rank chart, and add new
+chart.
 </p>
 </section>
 
