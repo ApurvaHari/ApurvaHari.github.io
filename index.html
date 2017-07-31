@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CS 498:Final Project in D3.js</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+  <h1> <i> Final Project, CS 498: Understanding the relation between Happiness and Income  </i> </h1>
+
+<div class="topnav" id="myTopnav">
+    <a href="first.html">First Page</a>
+    <a href="second.html">Second Page</a>
+    <a href="third.html">Third Page</a>
+    <a href="final.html">Conclusion and References</a>
+  </div>
+
+  <p> <i>Made by: Apurva Hari (University of Illinois Urbana-Champaign)</i>	</p>
+<h1><i> About this Project </i></h1>
+<section class="first">
+<h4>Hybrid Structure</h4>
+<p>
+This project is a series of pages with dynamic content that explains the relationship between the happiness
+and income in different states of the USA. On each page, we show US maps color coded, for different statistics.
+Users can hover over each state to obtain more details for better understanding/analyis.
+</p>
+
+<h4>Scene Utilization</h4>
+
+<p>
+
+There are five pages:
+<ul>
+<li>A welcome page that discusses about the project </li>
+<li>A data vizualization of the Happiness rank of all the states in the USA </li>
+<li>A data vizualization of the relationship between the Happiness and Medain Household Income for all the states in the USA</li>
+<li>A data vizualization of understanding the relationship between Happiness and Adjusted Income (Income adjsted for the cost of living in that state)
+of all the states in the USA</li>
+<li> A conclusion/references page.</li> </ul>
+</p>
+
+<h4>Annotations</h4>
+<p>
+Annotation is represented by a tooltip which displays state name, happiness rank and score, median
+household income and adjusted income when the user hovers their mouse over a state on the map of the USA.
+As the user moves their mouse away from that state, the annotation associated with that state disappears and
+an annotation for the next state they hover over appears.
+</p>
+<h4>Parameters</h4>
+<p>
+Parameters in this project are:
+Reading the input .csv files as a function,
+loading JSON data to match the geo-location properties to the .csv data field "state", and
+passing color ranges to the domains to fill the maps.
+</p>
+<h4>Triggers</h4>
+<p>
+We provide buttons to navigate between pages. Every section is hyper linked to the next section as well the previouse section.
+The name of the target section is passed as an input paramter to the button and navgiation bar items.
+</p>
+</section>
+
+<div class="center">
+  <div class="pagination">
+    <a href="index.html" class="active">begin</a>
+    <a href="first.html">1</a>
+    <a href="second.html">2</a>
+    <a href="third.html">3</a>
+    <a href="final.html">final</a>
+    <a href="first.html">&rarr;</a>
+  </div>
+</div>
+
+</body>
+</html>
